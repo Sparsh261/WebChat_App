@@ -103,7 +103,7 @@ let createPeerConnection = async (MemberId) => {
     document.getElementById("user1").classList.add("frame");
 
     if(!local){
-        local = await navigator.mediaDevices.getUserMedia({video:true,audio:false});
+        local = await navigator.mediaDevices.getUserMedia({video:true,audio:true});
         document.getElementById("user1").srcObject = local;
     }
 
