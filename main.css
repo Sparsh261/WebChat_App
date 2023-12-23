@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.videos{
+    height: 500px;
+    margin: 20px 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.video-player{
+    height: 60%;
+    background-color: lightcoral;
+}
+
+#user2{
+    display: none;
+    background-color: red;
+}
